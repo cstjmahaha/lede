@@ -12,12 +12,12 @@ on:
     - cron: 0 20 * * *
   release:
     types: [published]
-- master
+
 jobs:
 
   build_openwrt:
 
-    name: Build OpenWrt firmware
+    name: test1
 
     runs-on: ubuntu-latest
 
